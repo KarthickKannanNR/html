@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bookTickets</title>
+    <style>
+        a{
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <nav style="text-align: right; word-spacing: 7px; text-decoration: none;  " >
+        <a href="index.html">Home</a>
+        <a href="login.html">Login</a>
+        <a href="Register.html">Register</a>
+        <a href="cancelTickets.html">Cancel-Tickets</a>
+        <a href="checkPnrStatus.html">PNR-Status</a>
+        <a href="raise_Queries.html">Queries</a>
+        <a href="about.html">About</a>
+    </nav>
+    <form action="" style="text-align: center;">
+        <h3>Search Destinations</h3>
+        <label for="">From:</label>
+        <datalist id="fromStation">
+            <option value="mdu">MADURAI</option>
+            <OPTION value="CHN">CHENNAI</OPTION>
+            <OPTION value="SAL">SALEM</OPTION>
+            <OPTION value="rmd">RAMNAD</OPTION>
+            <OPTION value="thr">THIRCHY</OPTION>
+            <OPTION value="dnl">DINDUKAL</OPTION>
+        </datalist> 
+        <input type="text" style=" " placeholder="Start Destination" list="fromStation"><br><br>
+         <label for="">To:</label>
+         <datalist id="toStation">
+            <option value="mdu">MADURAI</option>
+            <OPTION value="CHN">CHENNAI</OPTION>
+            <OPTION value="SAL">SALEM</OPTION>
+            <OPTION value="rmd">RAMNAD</OPTION>
+            <OPTION value="thr">THIRCHY</OPTION>
+            <OPTION value="dnl">DINDUKAL</OPTION>
+        </datalist>
+        <input type="text" style=" " placeholder="End Destinations" list="toStation"><br><br>
+        <label for="date">Select Date:</label>
+        <input type="date"><br><br>
+        <button>Submit</button>
+    </form>
+  
+</body>
+</html>
